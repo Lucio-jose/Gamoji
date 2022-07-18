@@ -13,11 +13,20 @@
     }
 }
 @keyframes mario-move {
-    from{
-        right: 100%;
+    0%{
+        bottom: 0;
+    }
+    35%{
+        bottom: 180px;
+    }
+    50%{
+        bottom: 180px;
+    }
+    60%{
+        bottom: 180px;
     }
     to{
-        right: 0;
+        bottom: 0;
     }
 }
 
@@ -37,10 +46,11 @@ height: 80px;
 animation: obstacle-move infinite 3s linear;
 }
 
-#mario{
+.mario{
     position: absolute;
     bottom: 0;
     height: 80px;
-    right: 100%;
-    animation: mario-move infinite 3s linear;
+}
+.pular{
+    animation: mario-move 500ms ease-out;
 }
