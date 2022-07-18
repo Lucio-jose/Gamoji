@@ -39,11 +39,11 @@
     overflow: hidden;
 }
 
-#Img-Obstaculo{
+.Img-Obstaculo{
 position: absolute;
 bottom: 0;
 height: 80px;
-animation: obstacle-move infinite 3s linear;
+animation: obstacle-move infinite 2s linear;
 }
 
 .mario{
