@@ -19,7 +19,10 @@ const lopp= setInterval(()=>{
 
     if(Obsta<= 65 && Obsta>0&& marioButton<80){
         obstaculo.style.animation='none';
-        obstaculo.style.left=`${Obsta}px`
+        obstaculo.style.left=`${Obsta}px`;
+
+         mario.style.animation='none';
+        mario.style.bottom=`${marioButton}px`
     }
 },10)
 
